@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: #DEE2DE;
+}
+header{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+}
+
+.card {
+  display: flex;
+  width: 70%;
+  background-color: #FAF1CF;
+  margin-top: 1rem;
+  max-width: 650px;
+}
+
+.featured-image {
+  width: 70%;
+}
+
+.left-col {
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
